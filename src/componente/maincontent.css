@@ -1,0 +1,83 @@
+.mainText {
+    font-size: 17px;
+    color: rgb(226,219,208);
+    display: flex;
+    flex-direction: column;
+}
+
+.maincontent {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 450px;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* padding-bottom: 500px; */
+    max-height: 94vh;
+    scroll-behavior: smooth;
+    margin-top: 10px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+    overflow-x: hidden;
+  }
+  
+  .maincontent h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .experience {
+    display: flex;
+    flex-direction: column;
+    color: #e9e9e9;
+    gap: 20px;
+  }
+
+  .experience p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #bbb;
+  }
+
+  .experience-item {
+    padding: 20px;
+    border-radius: 15px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border: 1px solid #bbb;
+  }
+
+  .experience-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .experience-header h3 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .experience-header span {
+    font-weight: normal;
+    font-style: italic;
+    color: #bbb;
+    font-size: 18px;
+  }
+  
+  .experience-technologies {
+    font-size: 1em;
+    color: #ddd;
+    margin-top: 5px;
+    font-size: 17px;
+  }
+
+  .lastsectionText {
+    font-size: 9px;
+    color: rgba(222, 222, 222, 0.4);
+  }

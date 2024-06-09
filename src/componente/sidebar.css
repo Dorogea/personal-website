@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 450px;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 999;
+    padding-top: 100px;
+    padding-left: 280px;
+  }
+  
+  .headerh1, .headerh2, .headerp {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .headerh1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  
+  .headerh2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding: 2px;
+  }
+  
+  .headerp {
+    font-size: larger;
+    margin-bottom: 0px;
+    font-size: 15px;
+    padding: 2px;
+  }
+
+  .navlinks {
+    margin-top: 20px;
+  }
+
+  .navlinks a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .navlinks a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s;
+  }
+
+  .navlinks a:hover {
+    color: rgb(46, 55, 68);
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.7s;
+  }
+  
+  
