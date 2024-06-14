@@ -19,11 +19,11 @@ function sidebar() {
             <nav class='navlinks'>
                 <h2 class='headerh2'>Contact</h2>
                 <ul>
-                <li><SocialIcon url="https://www.linkedin.com/in/eduard-dorogea-263072236/" style={{ height: 30, width: 30 }} />
+                <li><SocialIcon class="social-icon" url="https://www.linkedin.com/in/eduard-dorogea-263072236/" style={{ height: 30, width: 30 }} />
                     <a href='https://www.linkedin.com/in/eduard-dorogea-263072236/'> LinkedIn</a></li>
-                <li><SocialIcon url="https://github.com/Dorogea" style={{ height: 30, width: 30 }}/>
+                <li><SocialIcon class="social-icon" url="https://github.com/Dorogea" style={{ height: 30, width: 30 }}/>
                     <a href='https://github.com/Dorogea'> GitHub</a></li>
-                <li><SocialIcon url="mailto: gupia27@gmail.com" style={{ height: 30, width: 30 }} />
+                <li><SocialIcon class="social-icon" url="mailto: gupia27@gmail.com" style={{ height: 30, width: 30 }} />
                     <a href='mailto: gupia27@gmail.com'> Email (gupia27@gmail.com)</a></li>
                 </ul>
             </nav>

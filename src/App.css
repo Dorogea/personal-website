@@ -4,10 +4,9 @@ body {
   background-position: center;
   margin: 0;
   font-family: "Arial", sans-serif;
-  display: flex;
+  /* display: flex; */
   overflow: hidden;
   overflow-x: hidden;
-  display: flex;
 }
 
   ::-webkit-scrollbar {
@@ -41,4 +40,32 @@ body {
   height: 100vh;
   margin-right: 200px;
   margin-left: 300px;
+}
+
+@media (max-width: 1441px) {
+  .container {
+    margin-left: 30px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .container {
+    margin-left: 300px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 769px) {
+  .container {
+    margin-left: 300px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 431px) {
+  .container {
+    margin-left: 150px;
+    margin-right: 10px;
+  }
 }
